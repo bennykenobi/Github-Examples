@@ -6,7 +6,6 @@ jobs:
   my-context:
     runs-on: ubuntu-latest
     steps:
-      env:
       - name: "My Step"
         run: echo "hello world $MY_ACION"
         env:
